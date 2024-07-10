@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useState } from 'react';
-import { OrdersType } from '../models/Northwind/orders-type';
+import { CustomersType } from '../models/Northwind/customers-type';
 import { EmployeesType } from '../models/Northwind/employees-type';
 import { SuppliersType } from '../models/Northwind/suppliers-type';
-import { CustomersType } from '../models/Northwind/customers-type';
+import { OrdersType } from '../models/Northwind/orders-type';
 import { getCustomers, getEmployees, getOrders, getSuppliers } from '../services/northwind';
 
 export const useGetOrders = () => {
